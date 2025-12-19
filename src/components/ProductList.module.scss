@@ -1,0 +1,74 @@
+// ProductList grid styles
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5em 2em;
+  align-items: end;
+}
+.productCard {
+  text-align: center;
+  /* ingen fast bredde, fyld grid cellen */
+  position: relative;
+}
+.productImage {
+  width: 100%;
+  background: #ccc;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.productImageTall {
+  aspect-ratio: 3/4;
+}
+.productCard:nth-child(2) .productImageTall {
+  aspect-ratio: 2/3;
+  margin-bottom: 2em;
+}
+.productImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.productImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.productTitle {
+  font-weight: bold;
+  margin-top: 8px;
+}
+.productPrice {
+  color: #222;
+  margin-top: 4px;
+}
+.favoriteBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 1.5rem;
+  z-index: 2;
+  padding: 0;
+  color: #ef4444;
+  transition: transform 0.1s;
+}
+.favoriteBtn:active {
+  transform: scale(0.9);
+}
+.heart {
+  color: #ef4444;
+  font-size: 1.5rem;
+}
+.heartOutline {
+  color: #aaa;
+  font-size: 1.5rem;
+}

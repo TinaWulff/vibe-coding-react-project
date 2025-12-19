@@ -1,0 +1,25 @@
+// CategoryList styles
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5em 2em;
+  align-items: end;
+}
+.categoryCard {
+  text-align: center;
+}
+.categoryImage {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background: #ccc;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categoryTitle {
+  font-weight: bold;
+  margin-top: 8px;
+}

@@ -1,0 +1,75 @@
+.myOrdersPage {
+  background: #f6f7fa;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.header {
+  margin: 2.5rem 0 2rem 0;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.filterRow {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+  margin-right: 2.5rem;
+}
+
+.filterSelect {
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+}
+
+.ordersTableWrapper {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px #e5e7eb;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.ordersTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ordersTableHeadRow {
+  background: #f9fafb;
+  text-align: left;
+  font-weight: 500;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.ordersTableHeadRow th {
+  padding: 1rem 1.5rem;
+}
+
+.ordersTableRow {
+  border-top: 1px solid #f3f4f6;
+  background: #fff;
+}
+
+.ordersTableRowAlt {
+  border-top: 1px solid #f3f4f6;
+  background: #f9fafb;
+}
+
+.ordersTableRow td, .ordersTableRowAlt td {
+  padding: 1rem 1.5rem;
+}
+
+.cancelled {
+  color: #ef4444;
+  font-weight: 500;
+}
+
+.confirmed {
+  color: #10b981;
+  font-weight: 500;
+}

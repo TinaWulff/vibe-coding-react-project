@@ -1,0 +1,113 @@
+.detailPage {
+  padding: 2em 0 4em 0;
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em 4em;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.detailImages {
+  width: 100%;
+}
+.imageGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1em;
+}
+.detailImg {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #ccc;
+}
+.detailInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+.detailTitle {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+.detailPrice {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+.detailDesc {
+  color: #222;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+.detailVendor {
+  color: #444;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+.detailOptions {
+  margin-bottom: 1em;
+}
+.detailLabel {
+  font-size: 1em;
+  color: #222;
+  margin-bottom: 0.3em;
+}
+.detailSizes {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+.detailSizes button {
+  padding: 0.5em 1.2em;
+  border: 1px solid #222;
+  background: #fff;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.detailQty {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  margin-bottom: 1em;
+}
+.detailQty button {
+  padding: 0.3em 1em;
+  border: 1px solid #222;
+  background: #fff;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.detailAddToCart {
+  width: 100%;
+  padding: 1em 0;
+  background: #222;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 0.7em;
+  cursor: pointer;
+}
+.detailShipping {
+  display: flex;
+  gap: 2em;
+  color: #888;
+  font-size: 0.95em;
+  margin-top: 0.5em;
+}
+.detailShipping a {
+  color: #888;
+  text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+.homeSectionSubtitle {
+  text-align: center;
+}
+.homeSection {
+  margin-top: 8em;
+  margin-bottom: 8em;
+  width: 100%;
+}
+
+.homeSectionTitle {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 0.25em;
+}
+
+.shopAllWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 2em;
+}
+
+.shopAllButton {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: 1px solid #222;
+  background: #fff;
+  cursor: pointer;
+}

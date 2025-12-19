@@ -1,0 +1,10 @@
+/* Import Public Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+:root {
+  --font-family-base: 'Public Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--font-family-base);
+}

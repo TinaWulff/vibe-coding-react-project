@@ -1,3 +1,9 @@
+# Bemærk om styling
+
+Alle komponent- og side-specifikke styles ligger i SCSS-moduler med filendelsen `.module.scss`.
+Dette sikrer, at CSS-klasser kun gælder for den komponent, hvor modulet importeres (scoped styling).
+Det forhindrer navnekonflikter og gør det nemt at vedligeholde og overskue projektets styles.
+
 # Vite + React + React Router
 
 Dette projekt er sat op med Vite, React og React Router.

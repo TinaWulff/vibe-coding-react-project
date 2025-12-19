@@ -1,0 +1,139 @@
+.cartPage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3em 0 6em 0;
+}
+
+.cartHeader {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.cartMain {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3em;
+  align-items: flex-start;
+}
+
+.cartList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.cartItem {
+  display: flex;
+  gap: 1.5em;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  padding: 1.5em 1.5em 1.5em 0;
+  align-items: flex-start;
+}
+.cartItemImg {
+  width: 120px;
+  height: 120px;
+  background: #ccc;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.cartItemInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.cartItemTitle {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.cartItemMeta {
+  color: #444;
+  font-size: 0.98em;
+}
+.cartItemPrice {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 0.5em;
+}
+.cartItemRemove {
+  color: #222;
+  font-size: 0.95em;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 0.5em;
+  align-self: flex-end;
+}
+
+.cartSummary {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  padding: 2em 2em 2em 2em;
+  min-width: 320px;
+}
+.cartSummaryTitle {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.cartSummaryInput {
+  width: 100%;
+  padding: 0.7em 1em;
+  font-size: 1em;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  margin-bottom: 1.2em;
+}
+.cartSummaryRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7em;
+  font-size: 1em;
+}
+.cartSummaryTotal {
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+.cartSummaryButton {
+  width: 100%;
+  padding: 1em 0;
+  background: #222;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cartOrderInfo {
+  margin-top: 4em;
+  background: none;
+}
+.cartOrderInfoTitle {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.cartOrderInfoSection {
+  border-top: 1px solid #bbb;
+  padding: 1.2em 0 0.5em 0;
+}
+.cartOrderInfoSectionTitle {
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 0.3em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.cartOrderInfoSectionContent {
+  color: #444;
+  font-size: 0.98em;
+  margin-bottom: 0.5em;
+}

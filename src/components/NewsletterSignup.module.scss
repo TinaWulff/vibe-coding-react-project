@@ -1,0 +1,33 @@
+// NewsletterSignup styles
+.section {
+  margin: 2rem 0;
+}
+
+h3 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  gap: 0.5em;
+}
+
+.input {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.button {
+  margin-left: 8px;
+  padding: 0.5rem 1rem;
+}
+.thankyou {
+  color: #228B22;
+  font-weight: bold;
+  margin-top: 1em;
+}

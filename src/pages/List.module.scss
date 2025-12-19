@@ -1,0 +1,37 @@
+// Shop page styles
+.shopHeader {
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.shopSubheader {
+  text-align: left;
+  color: #666;
+  max-width: 600px;
+  margin: 0 0 2rem 0;
+}
+.shopMain {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+}
+.shopFilter {
+  flex: 1 1 0;
+  max-width: 220px;
+  min-width: 180px;
+}
+.shopProducts {
+  flex: 3 1 0;
+  width: 100%;
+}
+.shopSortBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.shopLoadMore {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
